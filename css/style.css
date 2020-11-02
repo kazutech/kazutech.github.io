@@ -1,3 +1,9 @@
+nav ul {
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
 textarea {
   resize: none;
 }
