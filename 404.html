@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/style.css">
+<title>kazutech Rewrite</title>
+<script>
+    /*
+   * Config
+   */
+  var redirect_file_name01 = 'index.html';
+  var redirect_file_name02 = 'about.html';
+  var redirect_file_name03 = 'work.html';
+  var redirect_file_name04 = 'contact.html';
+
+  /*
+   * Env
+   */
+  var path_name = window.location.pathname;
+
+  if (permalink01 = path_name.match(new RegExp(redirect_file_name01.replace('.html', ''))))
+  {
+    location.href = redirect_file_name01
+  } else if (permalink02 = path_name.match(new RegExp(redirect_file_name02.replace('.html', ''))))
+  {
+    location.href = redirect_file_name02
+  } else if (permalink03 = path_name.match(new RegExp(redirect_file_name03.replace('.html', ''))))
+  {
+    location.href = redirect_file_name03
+  } else if (permalink04 = path_name.match(new RegExp(redirect_file_name04.replace('.html', ''))))
+  {
+    location.href = redirect_file_name04
+  }
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
