@@ -1,3 +1,9 @@
 textarea {
   resize: none;
 }
+form table caption {
+  text-align: center;
+}
+form table tr:nth-last-child(1) {
+  text-align: center;
+}
