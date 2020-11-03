@@ -1,11 +1,8 @@
-header nav ul li {
+header nav ul li a {
   float: right;
 }
 textarea {
   resize: none;
-}
-form table caption {
-  text-align: center;
 }
 form table tr:nth-last-child(1) {
   text-align: center;
