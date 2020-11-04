@@ -27,18 +27,22 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div id="main" class="col-md-8 col-sm-12">
-                <form>
-                    <h1>Inquiry Form</h1>
-                    <p>---under construction---</p>
-                    <table>
-                        <tr><label><td>Name</td><td><input type="text" name="name" id="name"></td></label></tr>
+                <form
+                action="https://formspree.io/f/mbjpypev"
+                method="POST"
+                >
+                <label>
+                    Your email:
+                    <input type="text" name="_replyto">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
 
-                        <tr><label><td>Email</td><td><input type="email" name="mail" id="mail"></td></label></tr>
+                <!-- your other form fields go here -->
 
-                        <tr><label><td>Contents</td><td><textarea name="inquiry" id="inquiry" cols="50" rows="10"></textarea></td></label></tr>
-
-                        <tr><td colspan="2"><input type="submit" name="submit" id="submit" value="submit"></td></tr>
-                    </table>
+                <button type="submit">Send</button>
                 </form>
             </div>
             <div class="col-md-2"></div>
