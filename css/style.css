@@ -7,3 +7,8 @@ textarea {
 form table tr:nth-last-child(1) {
   text-align: center;
 }
+.title {
+  font-family: "Lato", "Noto Sans JP", "ヒラギノ角ゴ ProN",
+    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+    "MS PGothic", sans-serif;
+}
