@@ -1,2 +1,1 @@
-sitemap:
-  path: sitemap.xml
+plugins: - jekyll-sitemap
